@@ -104,20 +104,24 @@
 	font-size: 2em;
 	font-family: 'Source Sans Pro', sans-serif;
 	line-height: 1.5em;
+	padding-bottom: 10px;
 }
 
 .info__button {
 	border-radius: 5px;
 	box-shadow: rgba(0, 0, 0, 0.2) 0px -3px 0px 0px inset;
 	padding: 12px;
+	margin-top: 20px;
 	background-color: yellow;
 	color: black;
 	font-family: Oswald, sans-serif;
 	font-size: 2rem;
 	line-height: 3rem;
+	letter-spacing: 1px;
 	text-align: center;
 	text-transform: uppercase;
-	width: 100%;
+	float: left;
+	width: 90%;
 }
 
  /*
@@ -232,3 +236,16 @@ html {
 	width: 100%;
 }
 
+.footer {
+	width: 100%;
+	background-color: black;
+	height: 80px;
+	color: white;
+}
+
+.footer__tag {
+	float:left;
+	font-size: 20px;
+	padding: 2% 3%;
+	font-family: 'Source Sans Pro', sans-serif;
+}
